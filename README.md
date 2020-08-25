@@ -23,4 +23,4 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 4. Visualização de gráficos dos comportamentos dos animais;
 5. Alertas de eventos de interesse;
 6. Compartilhamento dos dados;
-7. Geração de Relatórios.
+7. Geração de relatórios.
