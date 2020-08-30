@@ -29,7 +29,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 7. Geração de relatórios.
 
 
-## Lista de widgets utilizados
+## Lista de widgets
 
 ### Basic widgets
 
