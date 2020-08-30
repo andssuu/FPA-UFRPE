@@ -29,7 +29,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 7. Geração de relatórios.
 
 
-## Lista de widgets
+## Lista de widgets<sup id="a1">[1](#f1)</sup>
 
 ### Basic widgets
 
@@ -52,3 +52,8 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 - [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html)
 - [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html)
+
+
+<sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
+
+
