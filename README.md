@@ -26,7 +26,8 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 4. Dashboard para visualização dos dados;
 5. Alertas de eventos de interesse;
 6. Compartilhamento dos dados;
-7. Geração de relatórios.
+7. Geração de relatórios;
+8. Login.
 
 
 ## Lista de widgets<sup id="a1">[1](#f1)</sup>
