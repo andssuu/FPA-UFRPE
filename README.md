@@ -54,6 +54,11 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 - [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html)
 - [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html)
 
+### Advanced UI
+
+- [SplashScreen](https://flutter.dev/docs/development/ui/advanced/splash-screen)
+
+
 
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
 
