@@ -30,9 +30,11 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 8. Login.
 
 
-## Lista de widgets<sup id="a1">[1](#f1)</sup>
+## Interface do Usuário
 
-### Basic widgets
+### Lista de widgets<sup id="a1">[1](#f1)</sup>
+
+#### Basic widgets
 
 - [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html)
 - [Column](https://api.flutter.dev/flutter/widgets/Column-class.html)
@@ -43,20 +45,24 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 - [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html)
 - [Text](https://api.flutter.dev/flutter/widgets/Text-class.html)
 
-### Layout widgets
+#### Layout widgets
 
 - [Center](https://api.flutter.dev/flutter/widgets/Center-class.html)
 - [Expanded](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
 - [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)
 
-### Material Components
+#### Material Components
 
 - [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html)
 - [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html)
 
-### Advanced UI
+#### Advanced UI
 
 - [SplashScreen](https://flutter.dev/docs/development/ui/advanced/splash-screen)
+
+### Fluxograma de Telas
+
+### Diagrama de Widgets
 
 
 
