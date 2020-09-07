@@ -71,6 +71,16 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ### Diagrama de Widgets
 
+#### Tela Login
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagrama_login.svg">
+
+##### TODO
+  - Verificação e validação de login com dados reais;
+  - Persistência dos dados de usuário;
+
+##### Tela Login
+
 
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
 
