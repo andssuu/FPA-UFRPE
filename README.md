@@ -73,7 +73,10 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 #### Tela Login
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagrama_login.svg">
+<p float="left">
+  <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/screens/screen_login.jpeg" width="25%">
+  <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagrama_login.svg" width="72%">
+</p>
 
 ##### TODO
   - Verificação e validação de login com dados reais;
