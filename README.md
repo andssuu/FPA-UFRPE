@@ -79,7 +79,39 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
   - Verificação e validação de login com dados reais;
   - Persistência dos dados de usuário;
 
-##### Tela Login
+#### Tela Principal
+
+##### TODO
+  - 
+
+#### Tela Lista dos Animais
+
+##### TODO
+  - 
+
+
+#### Tela Mapa
+
+##### TODO
+  - 
+
+#### Tela Gráficos
+
+##### TODO
+  - 
+
+#### Tela Alertas
+
+##### TODO
+  - 
+
+#### Tela Sobre
+
+##### TODO
+  - 
+
+
+
 
 
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
