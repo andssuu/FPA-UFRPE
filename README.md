@@ -68,50 +68,51 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
 
-
 ### Diagrama de Widgets
 
 #### Tela Login
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagrama_login.svg">
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
 
 ##### TODO
   - Verificação e validação de login com dados reais;
   - Persistência dos dados de usuário;
 
-#### Tela Principal
+#### Tela Dashboard
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_dashboard.svg">
 
 ##### TODO
   - 
 
-#### Tela Lista dos Animais
+#### Tela Animais
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
 ##### TODO
   - 
-
 
 #### Tela Mapa
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
 ##### TODO
   - 
 
 #### Tela Gráficos
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
 
 ##### TODO
   - 
 
 #### Tela Alertas
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
 ##### TODO
   - 
 
 #### Tela Sobre
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
 
 ##### TODO
   - 
-
-
-
 
 
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
