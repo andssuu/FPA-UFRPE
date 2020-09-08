@@ -62,11 +62,11 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ### Fluxograma de Telas
 
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
+
 #### ```TODO```
   - ```Criação de tela para cadastrar um animal``` 
   - ```Criação de tela para exibir dados de um animal```
-
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
 
 ### Diagrama de Widgets
 
