@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class RandomWords extends StatefulWidget {
+class ListAnimals extends StatefulWidget {
   @override
-  _RandomWordsState createState() => _RandomWordsState();
+  _ListAnimalsState createState() => _ListAnimalsState();
 }
 
-class _RandomWordsState extends State<RandomWords> {
+class _ListAnimalsState extends State<ListAnimals> {
   final _animals = [
     "Animal 1",
     "Animal 2",
