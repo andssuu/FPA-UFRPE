@@ -34,31 +34,17 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ### Lista de widgets<sup id="a1">[1](#f1)</sup>
 
-#### Basic widgets
 
-- [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html)
-- [Column](https://api.flutter.dev/flutter/widgets/Column-class.html)
-- [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)
-- [Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)
-- [Image](https://api.flutter.dev/flutter/widgets/Image-class.html)
-- [Row](https://api.flutter.dev/flutter/widgets/Row-class.html)
-- [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html)
-- [Text](https://api.flutter.dev/flutter/widgets/Text-class.html)
-
-#### Layout widgets
-
-- [Center](https://api.flutter.dev/flutter/widgets/Center-class.html)
-- [Expanded](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
-- [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)
-
-#### Material Components
-
-- [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html)
-- [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html)
-
-#### Advanced UI
-
-- [SplashScreen](https://flutter.dev/docs/development/ui/advanced/splash-screen)
+Basic widgets                                                            | Layout widgets               | Material Components | Advanced UI 
+-------------------------------------------------------------------------| -----------------------------|---------------------|------------| 
+[AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html) | [Center](https://api.flutter.dev/flutter/widgets/Center-class.html) | [Drawer](https://api.flutter.dev/flutter/material/Drawer-class.html) | [SplashScreen](https://flutter.dev/docs/development/ui/advanced/splash-screen)
+[Column](https://api.flutter.dev/flutter/widgets/Column-class.html)      | [Expanded](https://api.flutter.dev/flutter/widgets/Expanded-class.html) | [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html) |
+[Container](https://api.flutter.dev/flutter/widgets/Container-class.html)| [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html) |  |  |
+[Icon](https://api.flutter.dev/flutter/widgets/Icon-class.html)          |                                                                         |  |  |
+[Image](https://api.flutter.dev/flutter/widgets/Image-class.html)        |                                                                         |  |  |
+[Row](https://api.flutter.dev/flutter/widgets/Row-class.html)            |                                                                         |  |  |
+[Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html) |                                                                         |  |  |
+[Text](https://api.flutter.dev/flutter/widgets/Text-class.html)          |                                                                         |  |  |
 
 ### Fluxograma de Telas
 
