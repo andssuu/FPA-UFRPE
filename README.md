@@ -101,14 +101,13 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 #### Tela Gráficos
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
-
-
 ##### ```TODO```
   - ```Contruir gráfico com os dados dos animais```
   - ```Legendas customizadas```
   - ```Pesquisar outros gráficos```
   - ```Ver possibilidade de interatividade com os gráficos```
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
 
 #### Tela Alertas
 
