@@ -62,21 +62,22 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ### Fluxograma de Telas
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
-
 #### ```TODO```
   - ```Criação de tela para cadastrar um animal``` 
   - ```Criação de tela para exibir dados de um animal```
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
+
 
 ### Diagrama de Widgets
 
 #### Tela Login
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
-
 ##### ```TODO```
   - ```Verificação e validação de login com dados reais```
   - ```Persistência dos dados de usuário```
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
 
 #### Tela Dashboard
 
@@ -84,23 +85,21 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 #### Tela Animais
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
-
 ##### ```TODO```
   - ```Visualizaço dos dados dos animais cadastrados```
   - ```Cadastro de animais```
   - ```Remoção de um animal cadastrado```
 
-#### Tela Mapa
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
+#### Tela Mapa
 
 ##### ```TODO```
   - ```Adicionar marcadores```
 
-#### Tela Gráficos
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
+#### Tela Gráficos
 
 ##### ```TODO```
   - ```Contruir gráfico com os dados dos animais```
@@ -110,20 +109,20 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 #### Tela Alertas
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
-
 ##### ```TODO```
   - ```Listagem dinâmica dos comportamentos (cio/em análise)```
   - ```Remoção dos alertas```
 
-#### Tela Sobre
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
+#### Tela Sobre
 
 ##### ```TODO```
   - ```Resunho do aplicativo```
   - ```Arquitetura Geral```
   - ```Equipe```
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
 
 
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
