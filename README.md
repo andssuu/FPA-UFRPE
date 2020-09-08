@@ -89,6 +89,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
   - ```Visualizaço dos dados dos animais cadastrados```
   - ```Cadastro de animais```
   - ```Remoção de um animal cadastrado```
+  - ```Persistência dos dados do animal```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
@@ -96,6 +97,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ##### ```TODO```
   - ```Adicionar marcadores```
+  - ```Leitura das coordenadas do animal```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
@@ -114,6 +116,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 ##### ```TODO```
   - ```Listagem dinâmica dos comportamentos (cio/em análise)```
   - ```Remoção dos alertas```
+  - ```Persistência dos dados de alertas```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
@@ -123,6 +126,8 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
   - ```Resunho do aplicativo```
   - ```Arquitetura Geral```
   - ```Equipe```
+  - ```Compartilhar```
+
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
 
