@@ -84,6 +84,7 @@ Basic widgets                                                            | Layou
 ##### ```TODO```
   - ```Adicionar marcadores```
   - ```Leitura das coordenadas do animal```
+  - ```Exibir dados do animal nos marcadores```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
@@ -94,6 +95,7 @@ Basic widgets                                                            | Layou
   - ```Legendas customizadas```
   - ```Pesquisar outros gráficos```
   - ```Ver possibilidade de interatividade com os gráficos```
+  - ```Ajustar alinhamento dos gráficos na tela```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
 
@@ -103,6 +105,7 @@ Basic widgets                                                            | Layou
   - ```Listagem dinâmica dos comportamentos (cio/em análise)```
   - ```Remoção dos alertas```
   - ```Persistência dos dados de alertas```
+  - ```Ajuste do alinhamento gráfico para cada alerta```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
@@ -113,7 +116,7 @@ Basic widgets                                                            | Layou
   - ```Arquitetura Geral```
   - ```Equipe```
   - ```Compartilhar```
-
+  - ```Alinhamento dos widgets na tela```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
 
