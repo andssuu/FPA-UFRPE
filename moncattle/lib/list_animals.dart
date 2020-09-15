@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:moncattle/add_animal.dart';
+import 'package:provider/provider.dart';
+import 'animal_datail.dart';
+import 'models/cow_notifier.dart';
 
 class ListAnimals extends StatefulWidget {
   @override
@@ -6,23 +10,6 @@ class ListAnimals extends StatefulWidget {
 }
 
 class _ListAnimalsState extends State<ListAnimals> {
-  final _animals = [
-    "Animal 1",
-    "Animal 2",
-    "Animal 3",
-    "Animal 4",
-    "Animal 5",
-    "Animal 6",
-    "Animal 7",
-    "Animal 8",
-    "Animal 9",
-    "Animal 10",
-    "Animal 11",
-    "Animal 12",
-    "Animal 13",
-    "Animal 14",
-    "Animal 15"
-  ];
   final _biggerFont = TextStyle(fontSize: 18.0);
   @override
   Widget build(BuildContext context) {
@@ -31,10 +18,12 @@ class _ListAnimalsState extends State<ListAnimals> {
         backgroundColor: Colors.black87,
         title: Text('Animais'),
       ),
-      body: _buildSuggestions(),
+      body: _buildListAnimals(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          print("clicou");
+          print("add animal");
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => AddAnimal()));
         },
         tooltip: 'Increment',
         backgroundColor: Colors.black87,
@@ -43,20 +32,38 @@ class _ListAnimalsState extends State<ListAnimals> {
     );
   }
 
-  Widget _buildSuggestions() {
-    return ListView.builder(
-      padding: EdgeInsets.all(16.0),
-      // Let the ListView know how many items it needs to build.
-      itemCount: _animals.length,
-      // Provide a builder function. This is where the magic happens.
-      // Convert each item into a widget based on the type of item it is.
-      itemBuilder: (context, index) {
-        final item = _animals[index];
-        return ListTile(
-          title: Text(
-            item,
-            style: _biggerFont,
-          ),
+  Widget _buildListAnimals() {
+    return Consumer<CowNotifier>(
+      builder: (context, animals, child) {
+        return ListView.builder(
+          padding: EdgeInsets.all(16.0),
+          itemCount: animals.cows.length,
+          itemBuilder: (context, index) {
+            final cow = animals.cows[index];
+            return Dismissible(
+              background: Container(
+                color: Colors.red.withOpacity(0.7),
+              ),
+              onDismissed: (direction) {
+                //print(direction);
+                var cows = context.read<CowNotifier>();
+                cows.remove(index);
+              },
+              key: Key(cow.idCollar),
+              child: ListTile(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => AnimalDetail(cow: cow)));
+                },
+                title: Text(
+                  cow.name,
+                  style: _biggerFont,
+                ),
+              ),
+            );
+          },
         );
       },
     );
