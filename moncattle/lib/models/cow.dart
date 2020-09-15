@@ -3,8 +3,8 @@ class Cow {
   String idCollar;
   String weight;
   String breed;
-  String lat = "";
-  String lon = "";
+  double lat;
+  double lon;
 
   Cow({this.name, this.idCollar, this.weight, this.breed});
 
