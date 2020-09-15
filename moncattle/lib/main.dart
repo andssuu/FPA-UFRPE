@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dashboard.dart';
-//import 'screens/login_screen.dart';
+import 'models/cow_notifier.dart';
+import 'package:provider/provider.dart';
 
-void main() => runApp(MonCattleApp());
+void main() => runApp(ChangeNotifierProvider(
+    create: (context) => CowNotifier(), child: MonCattleApp()));
 
 class MonCattleApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -58,7 +60,6 @@ class _HomePageState extends State<HomePage> {
         minWidth: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         onPressed: () {
-          print("login!");
           Navigator.pushAndRemoveUntil(
             context,
             MaterialPageRoute(builder: (context) => Dashboard()),
