@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:moncattle/models/cow_notifier.dart';
+import 'package:provider/provider.dart';
 import 'models/cow.dart';
 
 class AddAnimal extends StatefulWidget {
@@ -74,43 +76,40 @@ class _AddAnimalState extends State<AddAnimal> {
     );
 
     final addButton = Material(
-        elevation: 5.0,
-        borderRadius: BorderRadius.circular(10.0),
-        color: Colors.black87,
-        child: MaterialButton(
-          child: Text(
-            "Adicionar",
-            textAlign: TextAlign.center,
-          ),
-          textColor: Colors.white,
-          minWidth: MediaQuery.of(context).size.width,
-          padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          onPressed: () {
-            setState(() {
-              // widget.list.add(
-              //   Cow(
-              //       name: "Cow_6",
-              //       idCollar: "666666",
-              //       weight: "666",
-              //       breed: "breed_6"),
-              // );
-              print(nameController.text);
-              print(idCollarController.text);
-              print(breedController.text);
-              print(weightController.text);
-              if (nameController.text.isEmpty) {
-                showAlertDialog(context, 'Nome do animal vazio');
-              } else if (idCollarController.text.isEmpty) {
-                showAlertDialog(context, 'ID Colar inválido');
-              } else if (breedController.text.isEmpty) {
-                showAlertDialog(context, 'Raça inválida');
-              } else if (weightController.text.isEmpty) {
-                showAlertDialog(context, 'Peso Inválido');
-              }
-              Navigator.pop(context);
-            });
-          },
-        ));
+      elevation: 5.0,
+      borderRadius: BorderRadius.circular(10.0),
+      color: Colors.black87,
+      child: MaterialButton(
+        child: Text(
+          "Adicionar",
+          textAlign: TextAlign.center,
+        ),
+        textColor: Colors.white,
+        minWidth: MediaQuery.of(context).size.width,
+        padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+        onPressed: () {
+          if (nameController.text.isEmpty) {
+            showAlertDialog(context, 'Nome do animal vazio');
+          } else if (idCollarController.text.isEmpty) {
+            showAlertDialog(context, 'ID Colar inválido');
+          } else if (breedController.text.isEmpty) {
+            showAlertDialog(context, 'Raça inválida');
+          } else if (weightController.text.isEmpty) {
+            showAlertDialog(context, 'Peso Inválido');
+          } else {
+            var cows = context.read<CowNotifier>();
+            cows.add(
+              Cow(
+                  name: nameController.text,
+                  idCollar: idCollarController.text,
+                  weight: breedController.text,
+                  breed: weightController.text),
+            );
+            Navigator.pop(context);
+          }
+        },
+      ),
+    );
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black87,
