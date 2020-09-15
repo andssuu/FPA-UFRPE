@@ -46,15 +46,6 @@ class _DashboardState extends State<Dashboard> {
       final data_1 = [
         new CowStatus('Normal', 50),
       ];
-
-      final data_2 = [
-        new CowStatus('Cio', 50),
-      ];
-
-      final data_3 = [
-        new CowStatus('Análise', 25),
-      ];
-
       return [
         new charts.Series<CowStatus, int>(
           id: '123',
