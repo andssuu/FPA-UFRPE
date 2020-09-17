@@ -102,8 +102,8 @@ class _AddAnimalState extends State<AddAnimal> {
               Cow(
                   name: nameController.text,
                   idCollar: idCollarController.text,
-                  weight: breedController.text,
-                  breed: weightController.text),
+                  weight: weightController.text,
+                  breed: breedController.text),
             );
             Navigator.pop(context);
           }
