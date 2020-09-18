@@ -50,7 +50,6 @@ Basic widgets                                                            | Layou
 
 #### ```TODO```
   - [X] ```Criação tela login``` 
-  - [ ] ```Verificação e validação de usuário``` 
   - [X] ```Criação tela dashboard```
   - [X] ```Habilitar navegação entre telas```
   - [X] ```Criação tela para listar animais cadastrados``` 
@@ -69,7 +68,7 @@ Basic widgets                                                            | Layou
 #### Tela Login
 
 ##### ```TODO```
-  - [ ] ```Verificação e validação de login com dados reais```
+  - [ ] ```Verificação e validação de login```
   - [ ] ```Persistência dos dados de usuário```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
