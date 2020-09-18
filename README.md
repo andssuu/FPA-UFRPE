@@ -86,9 +86,10 @@ Basic widgets                                                            | Layou
 #### Tela Animais
 
 ##### ```TODO```
-  - [ ] ```Visualizaço dos dados dos animais cadastrados```
-  - [ ] ```Cadastro de animais```
-  - [ ] ```Remoção de um animal cadastrado```
+  - [X] ```Listagem dos animais cadastrados```
+  - [X] ```Visualizaço dos dados de um animal cadastrado```
+  - [X] ```Remoção de um animal cadastrado```
+  - [X] ```Acesso a tela de cadastro de animais```
   - [ ] ```Persistência dos dados do animal```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
