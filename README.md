@@ -97,10 +97,11 @@ Basic widgets                                                            | Layou
 #### Tela Mapa
 
 ##### ```TODO```
-  - [ ] ```Adicionar marcadores```
+  - [X] ```Integrar mapa Google```
+  - [X] ```Adicionar marcadores```
   - [X] ```Leitura das coordenadas do animal```
-  - [ ] ```Exibir dados do animal nos marcadores```
-  - [ ] ```Satellite view```
+  - [X] ```Exibir dados do animal nos marcadores```
+  - [ ] ```Habilitar opção para Satellite view```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
