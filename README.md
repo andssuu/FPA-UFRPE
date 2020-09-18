@@ -49,8 +49,17 @@ Basic widgets                                                            | Layou
 ### Fluxograma de Telas
 
 #### ```TODO```
-  - ```Criação de tela para cadastrar um animal``` 
-  - ```Criação de tela para exibir dados de um animal```
+  - [X] ```Criação tela login``` 
+  - [ ] ```Verificação e validação de usuário``` 
+  - [X] ```Criação tela dashboard```
+  - [X] ```Habilitar navegação entre telas```
+  - [X] ```Criação tela para listar animais cadastrados``` 
+  - [X] ```Criação tela para cadastrar um animal``` 
+  - [X] ```Criação tela para exibir dados de um animal```
+  - [X] ```Criação tela mapa```
+  - [X] ```Criação tela gráficos```
+  - [X] ```Criação tela alertas``` 
+  - [X] ```Criação tela sobre``` 
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
 
@@ -60,8 +69,8 @@ Basic widgets                                                            | Layou
 #### Tela Login
 
 ##### ```TODO```
-  - ```Verificação e validação de login com dados reais```
-  - ```Persistência dos dados de usuário```
+  - [ ] ```Verificação e validação de login com dados reais```
+  - [ ] ```Persistência dos dados de usuário```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
 
@@ -72,51 +81,52 @@ Basic widgets                                                            | Layou
 #### Tela Animais
 
 ##### ```TODO```
-  - ```Visualizaço dos dados dos animais cadastrados```
-  - ```Cadastro de animais```
-  - ```Remoção de um animal cadastrado```
-  - ```Persistência dos dados do animal```
+  - [ ] ```Visualizaço dos dados dos animais cadastrados```
+  - [ ] ```Cadastro de animais```
+  - [ ] ```Remoção de um animal cadastrado```
+  - [ ] ```Persistência dos dados do animal```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
 #### Tela Mapa
 
 ##### ```TODO```
-  - ```Adicionar marcadores```
-  - ```Leitura das coordenadas do animal```
-  - ```Exibir dados do animal nos marcadores```
+  - [ ] ```Adicionar marcadores```
+  - [X] ```Leitura das coordenadas do animal```
+  - [ ] ```Exibir dados do animal nos marcadores```
+  - [ ] ```Satellite view```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
 #### Tela Gráficos
 
 ##### ```TODO```
-  - ```Contruir gráfico com os dados dos animais```
-  - ```Legendas customizadas```
-  - ```Pesquisar outros gráficos```
-  - ```Ver possibilidade de interatividade com os gráficos```
-  - ```Ajustar alinhamento dos gráficos na tela```
+  - [ ] ```Contruir gráfico com os dados dos animais```
+  - [ ] ```Legendas customizadas```
+  - [ ] ```Pesquisar outros gráficos```
+  - [ ] ```Ver possibilidade de interatividade com os gráficos```
+  - [ ] ```Ajustar alinhamento dos gráficos na tela```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
 
 #### Tela Alertas
 
 ##### ```TODO```
-  - ```Listagem dinâmica dos comportamentos (cio/em análise)```
-  - ```Remoção dos alertas```
-  - ```Persistência dos dados de alertas```
-  - ```Ajuste do alinhamento gráfico para cada alerta```
+  - [ ] ```Listagem dinâmica dos comportamentos (cio/em análise)```
+  - [ ] ```Remoção dos alertas```
+  - [ ] ```Persistência dos dados de alertas```
+  - [ ] ```Ajuste do alinhamento gráfico para cada alerta```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
 #### Tela Sobre
 
 ##### ```TODO```
-  - ```Resunho do aplicativo```
-  - ```Arquitetura Geral```
-  - ```Equipe```
-  - ```Compartilhar```
-  - ```Alinhamento dos widgets na tela```
+  - [ ] ```Resunho do aplicativo```
+  - [ ] ```Arquitetura Geral```
+  - [ ] ```Equipe```
+  - [ ] ```Compartilhar```
+  - [ ] ```Alinhamento dos widgets na tela```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
 
