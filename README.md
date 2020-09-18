@@ -74,6 +74,12 @@ Basic widgets                                                            | Layou
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
 
 #### Tela Dashboard
+##### ```TODO```
+  - [X] ```Criar acesso a tela Animais```
+  - [X] ```Criar acesso a tela Mapas```
+  - [X] ```Criar acesso a tela Gráficos```
+  - [X] ```Criar acesso a tela Alertas```
+  - [X] ```Criar acesso a tela Sobre ```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_dashboard.svg">
 
