@@ -57,13 +57,28 @@ class _AddAnimalState extends State<AddAnimal> {
           hintText: "ID Coleira",
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
     );
-
+    var items = ['Holandesa', 'Girolando', 'Jersey', 'Gir'];
     final breed = TextField(
       controller: breedController,
       decoration: InputDecoration(
-          contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Raça",
-          border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
+        contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+        hintText: "Raça",
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0)),
+        suffixIcon: PopupMenuButton<String>(
+          icon: const Icon(Icons.arrow_drop_down),
+          onSelected: (String value) {
+            breedController.text = value;
+          },
+          itemBuilder: (BuildContext context) {
+            return items.map<PopupMenuItem<String>>((String value) {
+              return new PopupMenuItem(
+                child: new Text(value),
+                value: value,
+              );
+            }).toList();
+          },
+        ),
+      ),
     );
 
     final weight = TextField(
@@ -92,7 +107,7 @@ class _AddAnimalState extends State<AddAnimal> {
             showAlertDialog(context, 'Nome do animal vazio');
           } else if (idCollarController.text.isEmpty) {
             showAlertDialog(context, 'ID Colar inválido');
-          } else if (breedController.text.isEmpty) {
+          } else if (!items.contains(breedController.text)) {
             showAlertDialog(context, 'Raça inválida');
           } else if (weightController.text.isEmpty) {
             showAlertDialog(context, 'Peso Inválido');
