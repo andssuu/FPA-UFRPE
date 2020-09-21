@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:moncattle/models/cow_notifier.dart';
 import 'package:provider/provider.dart';
@@ -115,10 +117,12 @@ class _AddAnimalState extends State<AddAnimal> {
             var cows = context.read<CowNotifier>();
             cows.add(
               Cow(
-                  name: nameController.text,
-                  idCollar: idCollarController.text,
-                  weight: weightController.text,
-                  breed: breedController.text),
+                name: nameController.text,
+                idCollar: idCollarController.text,
+                weight: weightController.text,
+                breed: breedController.text,
+                hist: DateTime(2020, 9, Random().nextInt(10) + 21),
+              ),
             );
             Navigator.pop(context);
           }

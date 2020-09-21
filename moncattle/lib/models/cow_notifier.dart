@@ -13,6 +13,7 @@ class CowNotifier extends ChangeNotifier {
     cow.lat = -8.014995 - randomNumber;
     cow.lon = -34.949509 - randomNumber;
     _cows.add(cow);
+    _cows.sort((a, b) => a.hist.compareTo(b.hist));
     // This call tells the widgets that are listening to this model to rebuild.
     notifyListeners();
   }
