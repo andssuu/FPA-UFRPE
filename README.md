@@ -122,7 +122,9 @@ Basic widgets                                                            | Layou
   - [ ] ```Listagem dinâmica dos comportamentos (cio/em análise)```
   - [ ] ```Remoção dos alertas```
   - [ ] ```Persistência dos dados de alertas```
-  - [ ] ```Ajuste do alinhamento gráfico para cada alerta```
+  - [ ] ```Ajuste do alinhamento para cada alerta```
+  - [ ] ```Notificação (push) quando o usuário estiver com o app em execução```
+  - [ ] ```Notificação (push) em background```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
