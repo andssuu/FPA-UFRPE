@@ -1,11 +1,14 @@
 import 'dart:collection';
 import 'package:flutter/widgets.dart';
+import 'package:moncattle/models/alert.dart';
 import 'package:moncattle/models/cow.dart';
 import 'dart:math';
 
 class CowNotifier extends ChangeNotifier {
   final List<Cow> _cows = [];
+  final List<Alert> _alerts = [];
   UnmodifiableListView<Cow> get cows => UnmodifiableListView(_cows);
+  UnmodifiableListView<Alert> get alerts => UnmodifiableListView(_alerts);
 
   void add(Cow cow) {
     Random random = new Random();
@@ -28,6 +31,17 @@ class CowNotifier extends ChangeNotifier {
   void removeAll() {
     _cows.clear();
     // This call tells the widgets that are listening to this model to rebuild.
+    notifyListeners();
+  }
+
+  void addAlert(Alert alert) {
+    _alerts.add(alert);
+    // This call tells the widgets that are listening to this model to rebuild.
+    notifyListeners();
+  }
+
+  void removeAlert(int index) {
+    _alerts.removeAt(index);
     notifyListeners();
   }
 }
