@@ -1,6 +1,10 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:moncattle/alerts.dart';
 import 'package:moncattle/graphics.dart';
+import 'package:moncattle/models/alert.dart';
+import 'package:moncattle/models/cow_notifier.dart';
+import 'package:provider/provider.dart';
 import 'list_animals.dart';
 import 'map.dart';
 import 'about.dart';
@@ -11,32 +15,89 @@ class Dashboard extends StatefulWidget {
 }
 
 class _DashboardState extends State<Dashboard> {
+  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+  _registerOnFirebase() {
+    _firebaseMessaging.subscribeToTopic('all');
+    _firebaseMessaging.getToken().then((token) => print(token));
+  }
+
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        //iconTheme: new IconThemeData(color: Colors.green),
-        title: Center(
-          child: Text("MONCATTLE"),
+  void initState() {
+    _registerOnFirebase();
+    getMessage();
+    super.initState();
+  }
+
+  void getMessage() {
+    _firebaseMessaging.configure(
+        onMessage: (Map<String, dynamic> message) async {
+      print('received message');
+      var alerts = context.read<CowNotifier>();
+      alerts.addAlert(
+        Alert(
+          msg: message["notification"]["body"],
+          time: DateTime.now(),
         ),
-        elevation: .1,
-        backgroundColor: Colors.black87,
-      ),
-      body: Container(
-        padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 2.0),
-        child: GridView.count(
-          crossAxisCount: 2,
-          padding: EdgeInsets.all(3.0),
-          children: <Widget>[
-            makeDashboardItem("Animais", Icons.list_alt_outlined, 0),
-            makeDashboardItem("Mapas", Icons.map_outlined, 1),
-            makeDashboardItem("Gráficos", Icons.bar_chart, 2),
-            //makeDashboardItem("Relatórios", Icons.report_outlined, 0),
-            makeDashboardItem("Alertas", Icons.alarm, 3),
-            makeDashboardItem("Sobre", Icons.accessibility, 4),
+      );
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          content: ListTile(
+            title: Text(message["notification"]["title"]),
+            subtitle: Text(message["notification"]["body"]),
+          ),
+          actions: <Widget>[
+            FlatButton(
+                child: Text("OK"), onPressed: () => Navigator.of(context).pop())
           ],
         ),
-      ),
+      );
+    }, onResume: (Map<String, dynamic> message) async {
+      print('on resume message');
+      print(message['data']['title']);
+      print(message['data']['body']);
+      var alerts = context.read<CowNotifier>();
+      alerts.addAlert(
+        Alert(
+          msg: message['data']['body'],
+          time: DateTime.now(),
+        ),
+      );
+    }, onLaunch: (Map<String, dynamic> message) async {
+      print('on launch message');
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Consumer<CowNotifier>(
+      builder: (context, data, child) {
+        return Scaffold(
+          appBar: AppBar(
+            //iconTheme: new IconThemeData(color: Colors.green),
+            title: Center(
+              child: Text("MONCATTLE"),
+            ),
+            elevation: .1,
+            backgroundColor: Colors.black87,
+          ),
+          body: Container(
+            padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 2.0),
+            child: GridView.count(
+              crossAxisCount: 2,
+              padding: EdgeInsets.all(3.0),
+              children: <Widget>[
+                makeDashboardItem("Animais", Icons.list_alt_outlined, 0),
+                makeDashboardItem("Mapas", Icons.map_outlined, 1),
+                makeDashboardItem("Gráficos", Icons.bar_chart, 2),
+                //makeDashboardItem("Relatórios", Icons.report_outlined, 0),
+                makeDashboardItem("Alertas", Icons.alarm, 3),
+                makeDashboardItem("Sobre", Icons.accessibility, 4),
+              ],
+            ),
+          ),
+        );
+      },
     );
   }
 
