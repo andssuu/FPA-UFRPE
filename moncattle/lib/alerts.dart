@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:moncattle/models/cow_notifier.dart';
+import 'package:provider/provider.dart';
 
 class Alerts extends StatefulWidget {
   @override
@@ -6,23 +8,6 @@ class Alerts extends StatefulWidget {
 }
 
 class _AlertState extends State<Alerts> {
-  final _alerts = [
-    "Alerta 1",
-    "Alerta 2",
-    "Alerta 3",
-    "Alerta 4",
-    "Alerta 5",
-    "Alerta 6",
-    "Alerta 7",
-    "Alerta 8",
-    "Alerta 9",
-    "Alerta 10",
-    "Alerta 11",
-    "Alerta 12",
-    "Alerta 13",
-    "Alerta 14",
-    "Alerta 15"
-  ];
   final _biggerFont = TextStyle(fontSize: 18.0);
   @override
   Widget build(BuildContext context) {
@@ -36,21 +21,37 @@ class _AlertState extends State<Alerts> {
   }
 
   Widget _buildAlerts() {
-    return ListView.builder(
-      padding: EdgeInsets.all(16.0),
-      // Let the ListView know how many items it needs to build.
-      itemCount: _alerts.length,
-      // Provide a builder function. This is where the magic happens.
-      // Convert each item into a widget based on the type of item it is.
-      itemBuilder: (context, index) {
-        final item = _alerts[index];
-        return ListTile(
-          title: Text(
-            item,
-            style: _biggerFont,
-          ),
-        );
-      },
-    );
+    return Consumer<CowNotifier>(builder: (context, data, child) {
+      return ListView.builder(
+        padding: EdgeInsets.all(16.0),
+        itemCount: data.alerts.length,
+        itemBuilder: (context, index) {
+          final alert = data.alerts[index];
+          return Dismissible(
+            background: Container(
+              color: Colors.red.withOpacity(0.7),
+            ),
+            onDismissed: (direction) {
+              //print(direction);
+              var alerts = context.read<CowNotifier>();
+              alerts.removeAlert(index);
+            },
+            key: UniqueKey(),
+            child: ListTile(
+              onTap: () {
+                // Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //         builder: (context) => AnimalDetail(cow: cow)));
+              },
+              title: Text(
+                alert.msg,
+                style: _biggerFont,
+              ),
+            ),
+          );
+        },
+      );
+    });
   }
 }
