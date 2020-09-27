@@ -116,6 +116,10 @@ do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse proc
 
 ##### Descrição
 
+Tela contendo um formulário para o cadastro de um animal. O campo ```ID Coleira``` será o responsável pela integração
+do sensor com o animal cadastrado. Depois dessa integração, o sensor irá enviar os dados tais como: coordenadas da 
+localização, comportamento e alertas.
+
 #### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
@@ -126,6 +130,8 @@ do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse proc
   - [X] ```Obter dados dinamicamente do animal cadastrado```
 
 ##### Descrição
+
+Tela para exibir os dados de um animal cadastrado.
 
 #### Diagrama de Widgets
 
@@ -142,6 +148,9 @@ do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse proc
 
 ##### Descrição
 
+Tela contém um mapa para mostrar a localização dos animais por meio de marcadores. É possivel visualizar individualmente
+os dados de cada marcador apenas clicando nele. Serão exibidos os dados de ```Nome``` e ```Id Coleira```.
+
 #### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
@@ -156,6 +165,11 @@ do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse proc
   - [ ] ```Ajustar alinhamento dos gráficos na tela```
 
 ##### Descrição
+
+Tela exibe alguns gráficos para visualizaço dos dados, tais como:
+
+  - Histórico de animais cadastrados: quantidade de animais cadastrados por dia 
+  - Quantidade de animais por raça: quantitativo de animais por cada uma das 4 raças (Holandesa, Girolando, Jersey e Gir)
 
 #### Diagrama de Widgets
 
@@ -173,11 +187,20 @@ do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse proc
 
 ##### Descrição
 
+Tela responsável pela listagem dos alertas de cio dos animais. A identificação do cio é realizada por meio de um algoritmo
+de aprendizagem de máquina e então enviado como alerta para o aplicativo.
+
 #### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
 #### Tela Sobre
+
+Tela com tais informações:
+
+  - Resumo do aplicativo
+  - Arquitetura geral
+  - Equipe de desenvolvimento
 
 ##### ```TODO```
   - [ ] ```Resunho do aplicativo```
