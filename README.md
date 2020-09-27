@@ -94,7 +94,7 @@ Basic widgets                                                            | Layou
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
-#### Tela Adicionar Animal
+#### Tela Novo Animal
 
 ##### ```TODO```
   - [X] ```Criação da tela com o formulário```
@@ -103,7 +103,7 @@ Basic widgets                                                            | Layou
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
 
 
-#### Tela Detalhes do Animal
+#### Tela Detalhes
 
 ##### ```TODO```
   - [X] ```Criação do esqueleto da tela```
