@@ -20,15 +20,13 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ## Requisitos do aplicativo
 
-1. Utilização de mapa para visualizar a localização do animal;
-2. Armazenamento dos dados dos animais;
-3. Localização do equipamento;
-4. Dashboard para visualização dos dados;
-5. Alertas de eventos de interesse;
-6. Compartilhamento dos dados;
-7. Geração de relatórios;
-8. Login.
-
+1. Cadastro de animais;
+2. Visualização dos dados de um animal cadastrado;
+3. Utilização de mapa para visualizar a localização do animal;
+4. Gráficos para visualização dos dados;
+5. Alertas de eventos do cio;
+6. Armazenamento local dos dados;
+7. Login.
 
 ## Interface do Usuário
 
