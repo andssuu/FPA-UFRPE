@@ -47,7 +47,7 @@ class _AddAnimalState extends State<AddAnimal> {
       controller: nameController,
       decoration: InputDecoration(
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Nome do animal",
+          hintText: "Nome",
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
     );
 
@@ -88,7 +88,7 @@ class _AddAnimalState extends State<AddAnimal> {
       keyboardType: TextInputType.number,
       decoration: InputDecoration(
           contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
-          hintText: "Peso",
+          hintText: "Peso em Kg",
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(5.0))),
     );
 
