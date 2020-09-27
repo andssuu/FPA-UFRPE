@@ -178,12 +178,12 @@ Tela exibe alguns gráficos para visualizaço dos dados, tais como:
 #### Tela Alertas
 
 ##### ```TODO```
-  - [ ] ```Listagem dinâmica dos comportamentos (cio/em análise)```
-  - [ ] ```Remoção dos alertas```
+  - [X] ```Listagem dinâmica dos alertas```
+  - [X] ```Remoção dos alertas```
   - [ ] ```Persistência dos dados de alertas```
-  - [ ] ```Ajuste do alinhamento para cada alerta```
-  - [ ] ```Notificação (push) quando o usuário estiver com o app em execução```
-  - [ ] ```Notificação (push) em background```
+  - [X] ```Ajuste do alinhamento para cada alerta```
+  - [X] ```Notificação (push) quando o usuário estiver com o app em execução```
+  - [X] ```Notificação (push) em background```
 
 ##### Descrição
 
@@ -219,10 +219,10 @@ Tela com tais informações:
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
 
 <sub id="f2">2</sub> Lista de aplicativos comerciais encontrados:[↩](#a2)
-  - Cow Manager
-  - Cattle Manager
-  - Cow Master
-  - Livestock Manager
+  - CowManager
+  - CattleManager
+  - CowMaster
+  - LivestockManager
   - Moocall
   - VacApp
   - Afi2Gopro
