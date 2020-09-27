@@ -101,7 +101,7 @@ class _GraphicsState extends State<Graphics> {
             barRendererDecorator: new charts.BarLabelDecorator<String>(),
             domainAxis: new charts.OrdinalAxisSpec(),
             behaviors: [
-              new charts.ChartTitle('Quantidade de animals por raças',
+              new charts.ChartTitle('Quantidade de animais por raças',
                   behaviorPosition: charts.BehaviorPosition.top,
                   titleOutsideJustification: charts.OutsideJustification.start,
                   innerPadding: 20),
