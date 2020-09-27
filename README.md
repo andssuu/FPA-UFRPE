@@ -94,6 +94,28 @@ Basic widgets                                                            | Layou
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
+#### Tela Aducionar Animal
+
+##### ```TODO```
+  - [X] ```Criação da tela com o formulário```
+  - [X] ```Integrar cadsatro com o provider```
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
+
+
+#### Tela Animais
+
+##### ```TODO```
+  - [X] ```Listagem dos animais cadastrados```
+  - [X] ```Visualizaço dos dados de um animal cadastrado```
+  - [X] ```Remoção de um animal cadastrado```
+  - [X] ```Acesso a tela de cadastro de animais```
+  - [ ] ```Persistência dos dados do animal```
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
+
+
+
 #### Tela Mapa
 
 ##### ```TODO```
