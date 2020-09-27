@@ -17,7 +17,6 @@ Na etapa de processamento dos dados, será executada uma heurística que impleme
 mediante a utilização de algoritmos de *machine learning*. Tal servidor será o responsável pela alimentação das informações
 ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o desejar mediante uma autenticação feita no servidor.
 
-
 ## Requisitos do aplicativo
 
 1. Cadastro de animais;
@@ -30,8 +29,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 
 ## Interface do Usuário
 
-### Lista de widgets<sup id="a1">[1](#f1)</sup>
-
+### Lista de widgets utilizados<sup id="a1">[1](#f1)</sup>
 
 Basic widgets                                                            | Layout widgets               | Material Components | Advanced UI 
 -------------------------------------------------------------------------| -----------------------------|---------------------|------------| 
@@ -60,14 +58,17 @@ Basic widgets                                                            | Layou
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
 
-
-### Diagramas de Widgets
-
-#### Tela Login
+### Tela Login
 
 ##### ```TODO```
-  - [ ] ```Verificação e validação de login```
+  - [X] ```Verificação e validação de login```
   - [ ] ```Persistência dos dados de usuário```
+
+##### Descrição
+
+Tela para o usuário fazer o login no aplicativo. O cadastro do usuário será realizado previamente, assim como os aplicativos<sup id="a2">[2](#f2)</sup> comerciais fazem. Para ambiente de teste e validação da ideia foi criado um usuário ```ufrpe``` com senha ```ufrpe```.
+
+#### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
 
@@ -78,6 +79,12 @@ Basic widgets                                                            | Layou
   - [X] ```Criar acesso a tela Gráficos```
   - [X] ```Criar acesso a tela Alertas```
   - [X] ```Criar acesso a tela Sobre ```
+
+##### Descrição
+
+É a tela principal do aplicativo. Por meio dela, podemos chegar em qualquer outra tela.
+
+#### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_dashboard.svg">
 
@@ -90,6 +97,16 @@ Basic widgets                                                            | Layou
   - [X] ```Acesso a tela de cadastro de animais```
   - [ ] ```Persistência dos dados do animal```
 
+##### Descrição
+
+Tela responsável pela listagem dos animais cadastrados. Por meio dela, podemos chegar a tela de cadastro de um animal ou
+a tela que exibe os dados de um animal cadastrado. Também é possível remover um animal cadastrado apenas arrastado o nome
+do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse processo de remoção de um animal.
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/screens/remove_animal.png">
+
+#### Diagrama de Widgets
+
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
 #### Tela Novo Animal
@@ -97,16 +114,22 @@ Basic widgets                                                            | Layou
 ##### ```TODO```
   - [X] ```Integrar cadastro com o provider```
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
+##### Descrição
 
+#### Diagrama de Widgets
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
 
 #### Tela Detalhes
 
 ##### ```TODO```
   - [X] ```Obter dados dinamicamente do animal cadastrado```
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_detail_animal.svg">
+##### Descrição
 
+#### Diagrama de Widgets
+
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_detail_animal.svg">
 
 #### Tela Mapa
 
@@ -116,6 +139,10 @@ Basic widgets                                                            | Layou
   - [X] ```Leitura das coordenadas do animal```
   - [X] ```Exibir dados do animal nos marcadores```
   - [ ] ```Habilitar opção para Satellite view```
+
+##### Descrição
+
+#### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
@@ -127,6 +154,10 @@ Basic widgets                                                            | Layou
   - [ ] ```Pesquisar outros gráficos```
   - [ ] ```Ver possibilidade de interatividade com os gráficos```
   - [ ] ```Ajustar alinhamento dos gráficos na tela```
+
+##### Descrição
+
+#### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
 
@@ -140,6 +171,10 @@ Basic widgets                                                            | Layou
   - [ ] ```Notificação (push) quando o usuário estiver com o app em execução```
   - [ ] ```Notificação (push) em background```
 
+##### Descrição
+
+#### Diagrama de Widgets
+
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_alerts.svg">
 
 #### Tela Sobre
@@ -151,7 +186,20 @@ Basic widgets                                                            | Layou
   - [ ] ```Compartilhar```
   - [ ] ```Alinhamento dos widgets na tela```
 
+##### Descrição
+
+#### Diagrama de Widgets
+
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_about.svg">
 
 
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
+
+<sub id="f2">2</sub> Lista de aplicativos comerciais encontrados:[↩](#a2)
+  - Cow Manager
+  - Cattle Manager
+  - Cow Master
+  - Livestock Manager
+  - Moocall
+  - VacApp
+  - Afi2Gopro
