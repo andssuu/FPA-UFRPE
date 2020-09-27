@@ -196,12 +196,6 @@ de aprendizagem de máquina e então enviado como alerta para o aplicativo.
 
 #### Tela Sobre
 
-Tela com tais informações:
-
-  - Resumo do aplicativo
-  - Arquitetura geral
-  - Equipe de desenvolvimento
-
 ##### ```TODO```
   - [ ] ```Resunho do aplicativo```
   - [ ] ```Arquitetura Geral```
@@ -210,6 +204,12 @@ Tela com tais informações:
   - [ ] ```Alinhamento dos widgets na tela```
 
 ##### Descrição
+
+Tela com tais informações:
+
+  - Resumo do aplicativo
+  - Arquitetura geral
+  - Equipe de desenvolvimento
 
 #### Diagrama de Widgets
 
