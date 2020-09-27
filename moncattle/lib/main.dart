@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moncattle/models/alert.dart';
 import 'dashboard.dart';
 import 'models/cow_notifier.dart';
 import 'package:provider/provider.dart';
@@ -29,10 +30,13 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  TextEditingController userController = new TextEditingController();
+  TextEditingController passwordController = new TextEditingController();
   TextStyle style = TextStyle(fontFamily: 'OpenSans', fontSize: 20.0);
   @override
   Widget build(BuildContext context) {
     final emailField = TextField(
+      controller: userController,
       obscureText: true,
       style: style,
       decoration: InputDecoration(
@@ -43,6 +47,7 @@ class _HomePageState extends State<HomePage> {
     );
 
     final passwordField = TextField(
+      controller: passwordController,
       obscureText: true,
       style: style,
       decoration: InputDecoration(
@@ -60,11 +65,29 @@ class _HomePageState extends State<HomePage> {
         minWidth: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         onPressed: () {
-          Navigator.pushAndRemoveUntil(
-            context,
-            MaterialPageRoute(builder: (context) => Dashboard()),
-            (Route<dynamic> route) => false,
-          );
+          if (userController.text == 'ufrpe' &&
+              passwordController.text == 'ufrpe') {
+            Navigator.pushAndRemoveUntil(
+              context,
+              MaterialPageRoute(builder: (context) => Dashboard()),
+              (Route<dynamic> route) => false,
+            );
+          } else {
+            showDialog(
+              context: context,
+              builder: (context) => AlertDialog(
+                content: ListTile(
+                  title: Text("Validação dos dados"),
+                  subtitle: Text("Usuário não cadastrado ou senha inválida"),
+                ),
+                actions: <Widget>[
+                  FlatButton(
+                      child: Text("OK"),
+                      onPressed: () => Navigator.of(context).pop())
+                ],
+              ),
+            );
+          }
         },
         child: Text("Login",
             textAlign: TextAlign.center,
