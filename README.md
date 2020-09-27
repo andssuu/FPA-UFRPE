@@ -97,8 +97,7 @@ Basic widgets                                                            | Layou
 #### Tela Novo Animal
 
 ##### ```TODO```
-  - [X] ```Criação da tela com o formulário```
-  - [X] ```Integrar cadsatro com o provider```
+  - [X] ```Integrar cadastro com o provider```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
 
@@ -106,7 +105,6 @@ Basic widgets                                                            | Layou
 #### Tela Detalhes
 
 ##### ```TODO```
-  - [X] ```Criação do esqueleto da tela```
   - [X] ```Obter dados dinamicamente do animal cadastrado```
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_detail_animal.svg">
