@@ -94,7 +94,7 @@ Basic widgets                                                            | Layou
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
 
-#### Tela Aducionar Animal
+#### Tela Adicionar Animal
 
 ##### ```TODO```
   - [X] ```Criação da tela com o formulário```
@@ -103,17 +103,13 @@ Basic widgets                                                            | Layou
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_add_animal.svg">
 
 
-#### Tela Animais
+#### Tela Detalhes do Animal
 
 ##### ```TODO```
-  - [X] ```Listagem dos animais cadastrados```
-  - [X] ```Visualizaço dos dados de um animal cadastrado```
-  - [X] ```Remoção de um animal cadastrado```
-  - [X] ```Acesso a tela de cadastro de animais```
-  - [ ] ```Persistência dos dados do animal```
+  - [X] ```Criação do esqueleto da tela```
+  - [X] ```Obter dados dinamicamente do animal cadastrado```
 
-<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_list_animals.svg">
-
+<img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_detail_animal.svg">
 
 
 #### Tela Mapa
