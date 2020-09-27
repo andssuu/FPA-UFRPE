@@ -61,7 +61,7 @@ Basic widgets                                                            | Layou
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
 
 
-### Diagrama de Widgets
+### Diagramas de Widgets
 
 #### Tela Login
 
