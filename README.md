@@ -219,10 +219,10 @@ Tela com tais informações:
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
 
 <sub id="f2">2</sub> Lista de aplicativos comerciais encontrados:[↩](#a2)
-  - CowManager
-  - CattleManager
-  - CowMaster
-  - LivestockManager
-  - Moocall
-  - VacApp
-  - Afi2Gopro
+  - [CowManager](https://play.google.com/store/apps/details?id=nl.agis.android.cowmanager&hl=en)
+  - [CattleManager](https://play.google.com/store/apps/details?id=com.catman&hl=en)
+  - [CowMaster]()
+  - [LivestockManager]()
+  - [Moocall]()
+  - [VacApp]()
+  - [Afi2Gopro]()
