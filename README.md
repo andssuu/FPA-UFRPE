@@ -62,7 +62,6 @@ Basic widgets                                                            | Layou
 
 ##### ```TODO```
   - [X] ```Verificação e validação de login```
-  - [ ] ```Persistência dos dados de usuário```
 
 ##### Descrição
 
@@ -95,7 +94,6 @@ Tela para o usuário fazer o login no aplicativo. O cadastro do usuário será r
   - [X] ```Visualizaço dos dados de um animal cadastrado```
   - [X] ```Remoção de um animal cadastrado```
   - [X] ```Acesso a tela de cadastro de animais```
-  - [ ] ```Persistência dos dados do animal```
 
 ##### Descrição
 
@@ -179,7 +177,6 @@ Tela exibe alguns gráficos para visualizaço dos dados, tais como:
 ##### ```TODO```
   - [X] ```Listagem dinâmica dos alertas```
   - [X] ```Remoção dos alertas```
-  - [ ] ```Persistência dos dados de alertas```
   - [X] ```Ajuste do alinhamento para cada alerta```
   - [X] ```Notificação (push) quando o usuário estiver com o app em execução```
   - [X] ```Notificação (push) em background```
