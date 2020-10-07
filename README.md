@@ -24,8 +24,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 3. Utilização de mapa para visualizar a localização do animal;
 4. Gráficos para visualização dos dados;
 5. Alertas de eventos do cio;
-6. Armazenamento local dos dados;
-7. Login
+6. Login
 
 ## Interface do Usuário
 
