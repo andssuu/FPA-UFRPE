@@ -158,11 +158,10 @@ os dados de cada marcador apenas clicando nele. Serão exibidos os dados de ```N
 #### Tela Gráficos
 
 ##### ```TODO```
-  - [ ] ```Contruir gráfico com os dados dos animais```
-  - [ ] ```Legendas customizadas```
-  - [ ] ```Pesquisar outros gráficos```
-  - [ ] ```Ver possibilidade de interatividade com os gráficos```
-  - [ ] ```Ajustar alinhamento dos gráficos na tela```
+  - [X] ```Contruir gráficos com os dados dos animais```
+  - [X] ```Legendas customizadas```
+  - [X] ```Pesquisar outros gráficos```
+  - [X] ```Ajustar alinhamento dos gráficos na tela```
 
 ##### Descrição
 
