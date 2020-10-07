@@ -58,8 +58,8 @@ class _GraphicsState extends State<Graphics> {
 
   List<charts.Series<LinearTimeSeriesCows, DateTime>> _getHistAnimals() {
     var animals = context.read<CowNotifier>();
-    int total = animals.cows.length;
-    print(total);
+    //int total = animals.cows.length;
+    //print(total);
     var map = Map();
     animals.cows.forEach(
       (cow) {
@@ -70,7 +70,7 @@ class _GraphicsState extends State<Graphics> {
         }
       },
     );
-    print(map);
+    //print(map);
     List<LinearTimeSeriesCows> data = [];
     map.forEach((key, value) {
       data.add(new LinearTimeSeriesCows(key, value));

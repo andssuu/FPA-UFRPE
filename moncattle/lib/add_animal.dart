@@ -121,7 +121,7 @@ class _AddAnimalState extends State<AddAnimal> {
                 idCollar: idCollarController.text,
                 weight: weightController.text,
                 breed: breedController.text,
-                hist: DateTime(2020, 9, Random().nextInt(10) + 21),
+                hist: DateTime(2020, 10, Random().nextInt(30)),
               ),
             );
             Navigator.pop(context);

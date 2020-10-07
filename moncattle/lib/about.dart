@@ -36,7 +36,7 @@ class About extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Fundamentos da Programação Aplicada",
+                  "Fundamentos de Programação Aplicada",
                   style: TextStyle(
                     color: Colors.grey[500],
                   ),
