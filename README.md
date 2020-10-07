@@ -62,7 +62,6 @@ Basic widgets                                                            | Layou
 
 ##### ```TODO```
   - [X] ```Verificação e validação de login```
-  - [ ] ```Persistência dos dados de usuário```
 
 ##### Descrição
 
@@ -95,7 +94,6 @@ Tela para o usuário fazer o login no aplicativo. O cadastro do usuário será r
   - [X] ```Visualizaço dos dados de um animal cadastrado```
   - [X] ```Remoção de um animal cadastrado```
   - [X] ```Acesso a tela de cadastro de animais```
-  - [ ] ```Persistência dos dados do animal```
 
 ##### Descrição
 
@@ -158,11 +156,10 @@ os dados de cada marcador apenas clicando nele. Serão exibidos os dados de ```N
 #### Tela Gráficos
 
 ##### ```TODO```
-  - [ ] ```Contruir gráfico com os dados dos animais```
-  - [ ] ```Legendas customizadas```
-  - [ ] ```Pesquisar outros gráficos```
-  - [ ] ```Ver possibilidade de interatividade com os gráficos```
-  - [ ] ```Ajustar alinhamento dos gráficos na tela```
+  - [X] ```Contruir gráficos com os dados dos animais```
+  - [X] ```Legendas customizadas```
+  - [X] ```Pesquisar outros gráficos```
+  - [X] ```Ajustar alinhamento dos gráficos na tela```
 
 ##### Descrição
 
@@ -180,7 +177,6 @@ Tela exibe alguns gráficos para visualizaço dos dados, tais como:
 ##### ```TODO```
   - [X] ```Listagem dinâmica dos alertas```
   - [X] ```Remoção dos alertas```
-  - [ ] ```Persistência dos dados de alertas```
   - [X] ```Ajuste do alinhamento para cada alerta```
   - [X] ```Notificação (push) quando o usuário estiver com o app em execução```
   - [X] ```Notificação (push) em background```
@@ -196,20 +192,9 @@ de aprendizagem de máquina e então enviado como alerta para o aplicativo.
 
 #### Tela Sobre
 
-##### ```TODO```
-  - [ ] ```Resunho do aplicativo```
-  - [ ] ```Arquitetura Geral```
-  - [ ] ```Equipe```
-  - [ ] ```Compartilhar```
-  - [ ] ```Alinhamento dos widgets na tela```
-
 ##### Descrição
 
-Tela com tais informações:
-
-  - Resumo do aplicativo
-  - Arquitetura geral
-  - Equipe de desenvolvimento
+Tela contendo as informações sobre o contexto do desenvolvimento do aplicativo.
 
 #### Diagrama de Widgets
 
@@ -219,10 +204,10 @@ Tela com tais informações:
 <sub id="f1">1</sub> Lista de widgets que possivelmente serão utilizados.[↩](#a1)
 
 <sub id="f2">2</sub> Lista de aplicativos comerciais encontrados:[↩](#a2)
-  - CowManager
-  - CattleManager
-  - CowMaster
-  - LivestockManager
-  - Moocall
-  - VacApp
-  - Afi2Gopro
+  - [CowManager](https://play.google.com/store/apps/details?id=nl.agis.android.cowmanager&hl=en)
+  - [CattleManager](https://play.google.com/store/apps/details?id=com.catman&hl=en)
+  - [CowMaster](https://play.google.com/store/apps/details?id=com.kelimesoft.suruyonetimi&hl=ro)
+  - [LivestockManager](https://play.google.com/store/apps/details?id=com.cabral.livestockmanager&hl=ro)
+  - [Moocall](https://play.google.com/store/apps/details?id=com.moocall.moocall&hl=ro)
+  - [VacApp](https://play.google.com/store/apps/details?id=com.mateuyabar.vacapp&hl=ro)
+  - [Afi2Gopro](https://play.google.com/store/apps/details?id=com.afimilk.afi2gopro&hl=ro)
