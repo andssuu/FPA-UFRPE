@@ -24,7 +24,8 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 3. Utilização de mapa para visualizar a localização do animal;
 4. Gráficos para visualização dos dados;
 5. Alertas de eventos do cio;
-6. Login
+6. Armazenamento Local
+7. Login
 
 ## Interface do Usuário
 
@@ -93,6 +94,7 @@ Tela para o usuário fazer o login no aplicativo. O cadastro do usuário será r
   - [X] ```Visualizaço dos dados de um animal cadastrado```
   - [X] ```Remoção de um animal cadastrado```
   - [X] ```Acesso a tela de cadastro de animais```
+  - [X] ```Persistência dos dados localmente```
 
 ##### Descrição
 
