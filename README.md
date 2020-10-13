@@ -117,7 +117,7 @@ os dados de cada marcador apenas clicando nele. Serão exibidos os dados de ```N
 
 ##### Descrição
 
-Tela exibe alguns gráficos para visualizaço dos dados, tais como:
+Tela exibe alguns gráficos para visualização dos dados, tais como:
 
   - Histórico de animais cadastrados: quantidade de animais cadastrados por dia 
   - Quantidade de animais por raça: quantitativo de animais por cada uma das 4 raças (Holandesa, Girolando, Jersey e Gir)
@@ -127,13 +127,6 @@ Tela exibe alguns gráficos para visualizaço dos dados, tais como:
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_graphics.svg">
 
 #### Tela Alertas
-
-##### ```TODO```
-  - [X] ```Listagem dinâmica dos alertas```
-  - [X] ```Remoção dos alertas```
-  - [X] ```Ajuste do alinhamento para cada alerta```
-  - [X] ```Notificação (push) quando o usuário estiver com o app em execução```
-  - [X] ```Notificação (push) em background```
 
 ##### Descrição
 
