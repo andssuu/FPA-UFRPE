@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moncattle/models/alert.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'dashboard.dart';
 import 'models/cow_notifier.dart';
 import 'package:provider/provider.dart';
@@ -9,6 +9,11 @@ void main() => runApp(ChangeNotifierProvider(
 
 class MonCattleApp extends StatelessWidget {
   // This widget is the root of your application.
+  Future<bool> checkLoginValue() async {
+    SharedPreferences loginCheck = await SharedPreferences.getInstance();
+    return loginCheck.getBool("login");
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,7 +22,16 @@ class MonCattleApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(title: 'Moncattle'),
+      home: FutureBuilder<bool>(
+          future: checkLoginValue(),
+          // ignore: missing_return
+          builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+            if (snapshot.data == null || snapshot.data == false) {
+              return HomePage(title: 'Moncattle');
+            } else {
+              return Dashboard();
+            }
+          }),
     );
   }
 }
@@ -26,10 +40,25 @@ class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
   final String title;
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePageState createState() {
+    return _HomePageState();
+  }
 }
 
 class _HomePageState extends State<HomePage> {
+  onApp() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    var _status = prefs.getBool('login');
+    var dataCows = prefs.getString('cows');
+    _status = true;
+    prefs.setBool('login', _status);
+  }
+
+  outApp() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool('login', false);
+  }
+
   TextEditingController userController = new TextEditingController();
   TextEditingController passwordController = new TextEditingController();
   TextStyle style = TextStyle(fontFamily: 'OpenSans', fontSize: 20.0);
@@ -67,6 +96,7 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           if (userController.text == 'ufrpe' &&
               passwordController.text == 'ufrpe') {
+            onApp();
             Navigator.pushAndRemoveUntil(
               context,
               MaterialPageRoute(builder: (context) => Dashboard()),
