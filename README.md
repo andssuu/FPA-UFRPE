@@ -24,7 +24,7 @@ ao aplicativo. O usuário poderá adicionar e excluir os animais que assim o des
 3. Utilização de mapa para visualizar a localização do animal;
 4. Gráficos para visualização dos dados;
 5. Alertas de eventos do cio;
-6. Armazenamento Local
+6. Armazenamento Local;
 7. Login
 
 ## Interface do Usuário
@@ -44,24 +44,9 @@ Basic widgets                                                            | Layou
 
 ### Fluxograma de Telas
 
-#### ```TODO```
-  - [X] ```Criação tela login``` 
-  - [X] ```Criação tela dashboard```
-  - [X] ```Habilitar navegação entre telas```
-  - [X] ```Criação tela para listar animais cadastrados``` 
-  - [X] ```Criação tela para cadastrar um animal``` 
-  - [X] ```Criação tela para exibir dados de um animal```
-  - [X] ```Criação tela mapa```
-  - [X] ```Criação tela gráficos```
-  - [X] ```Criação tela alertas``` 
-  - [X] ```Criação tela sobre``` 
-
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/fluxograma_telas.svg">
 
 ### Tela Login
-
-##### ```TODO```
-  - [X] ```Verificação e validação de login```
 
 ##### Descrição
 
@@ -72,29 +57,16 @@ Tela para o usuário fazer o login no aplicativo. O cadastro do usuário será r
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_login.svg">
 
 #### Tela Dashboard
-##### ```TODO```
-  - [X] ```Criar acesso a tela Animais```
-  - [X] ```Criar acesso a tela Mapas```
-  - [X] ```Criar acesso a tela Gráficos```
-  - [X] ```Criar acesso a tela Alertas```
-  - [X] ```Criar acesso a tela Sobre ```
 
 ##### Descrição
 
-É a tela principal do aplicativo. Por meio dela, podemos chegar em qualquer outra tela.
+É a tela principal do aplicativo. Por meio dela, pode-se chegar em qualquer outra tela.
 
 #### Diagrama de Widgets
 
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_dashboard.svg">
 
 #### Tela Animais
-
-##### ```TODO```
-  - [X] ```Listagem dos animais cadastrados```
-  - [X] ```Visualizaço dos dados de um animal cadastrado```
-  - [X] ```Remoção de um animal cadastrado```
-  - [X] ```Acesso a tela de cadastro de animais```
-  - [X] ```Persistência dos dados localmente```
 
 ##### Descrição
 
@@ -110,9 +82,6 @@ do animal na lista para a esquerda ou direita. A figura abaixo ilustra esse proc
 
 #### Tela Novo Animal
 
-##### ```TODO```
-  - [X] ```Integrar cadastro com o provider```
-
 ##### Descrição
 
 Tela contendo um formulário para o cadastro de um animal. O campo ```ID Coleira``` será o responsável pela integração
@@ -125,9 +94,6 @@ localização, comportamento e alertas.
 
 #### Tela Detalhes
 
-##### ```TODO```
-  - [X] ```Obter dados dinamicamente do animal cadastrado```
-
 ##### Descrição
 
 Tela para exibir os dados de um animal cadastrado.
@@ -137,13 +103,6 @@ Tela para exibir os dados de um animal cadastrado.
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_detail_animal.svg">
 
 #### Tela Mapa
-
-##### ```TODO```
-  - [X] ```Integrar mapa Google```
-  - [X] ```Adicionar marcadores```
-  - [X] ```Leitura das coordenadas do animal```
-  - [X] ```Exibir dados do animal nos marcadores```
-  - [ ] ```Habilitar opção para Satellite view```
 
 ##### Descrição
 
@@ -155,12 +114,6 @@ os dados de cada marcador apenas clicando nele. Serão exibidos os dados de ```N
 <img src="https://github.com/andssuu/FPA-UFRPE/blob/master/moncattle/assets/images/diagrams/diagram_map.svg">
 
 #### Tela Gráficos
-
-##### ```TODO```
-  - [X] ```Contruir gráficos com os dados dos animais```
-  - [X] ```Legendas customizadas```
-  - [X] ```Pesquisar outros gráficos```
-  - [X] ```Ajustar alinhamento dos gráficos na tela```
 
 ##### Descrição
 
@@ -186,6 +139,10 @@ Tela exibe alguns gráficos para visualizaço dos dados, tais como:
 
 Tela responsável pela listagem dos alertas de cio dos animais. A identificação do cio é realizada por meio de um algoritmo
 de aprendizagem de máquina e então enviado como alerta para o aplicativo.
+
+Após a identificação do comportamento, é enviada uma notificação para o aplicativo informando que o animal começou a entrar 
+no período do cio. Esse alerta é armazenado e exibido na lista de alertas. O usuário pode excluir os alertas apenas arrastando
+o alerta para algum dos lados (semelhante a exclusão de um animal).
 
 #### Diagrama de Widgets
 
