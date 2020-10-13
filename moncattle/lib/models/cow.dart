@@ -14,9 +14,9 @@ class Cow {
     idCollar = json['id_collar'];
     weight = json['weight'];
     breed = json['breed'];
-    lat = json['lat'];
-    lon = json['lon'];
-    hist = json['hist'];
+//    lat = json['lat'];
+//    lon = json['lon'];
+//    hist = json['hist'];
   }
 
   Map<String, dynamic> toJson() {
@@ -25,9 +25,9 @@ class Cow {
     data['id_collar'] = this.idCollar;
     data['weight'] = this.weight;
     data['breed'] = this.breed;
-    data['lat'] = this.lat;
-    data['lon'] = this.lon;
-    data['hist'] = this.hist;
+    //data['lat'] = this.lat;
+    //data['lon'] = this.lon;
+    //data['hist'] = this.hist;
     return data;
   }
 }

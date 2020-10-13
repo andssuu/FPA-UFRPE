@@ -47,7 +47,7 @@ class _ListAnimalsState extends State<ListAnimals> {
               onDismissed: (direction) {
                 //print(direction);
                 var cows = context.read<CowNotifier>();
-                cows.remove(index);
+                cows.removeCow(index);
               },
               key: Key(cow.idCollar),
               child: ListTile(

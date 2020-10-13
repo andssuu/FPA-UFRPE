@@ -115,7 +115,7 @@ class _AddAnimalState extends State<AddAnimal> {
             showAlertDialog(context, 'Peso Inválido');
           } else {
             var cows = context.read<CowNotifier>();
-            cows.add(
+            cows.addCow(
               Cow(
                 name: nameController.text,
                 idCollar: idCollarController.text,
