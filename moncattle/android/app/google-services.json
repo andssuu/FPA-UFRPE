@@ -1,40 +1,32 @@
 {
-  "project_info": {
-    "project_number": "1067709910938",
-    "firebase_url": "https://moncattle.firebaseio.com",
-    "project_id": "moncattle",
-    "storage_bucket": "moncattle.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1067709910938:android:a867a56b5b319dc4993423",
-        "android_client_info": {
-          "package_name": "br.com.moncattle"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1067709910938-ne3m2imfvns6fhri1lak51lnkkpcqpb2.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB4HoYQKrpQ-_sGeiUCHVGIzM4QbLE9eH0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1067709910938-ne3m2imfvns6fhri1lak51lnkkpcqpb2.apps.googleusercontent.com",
-              "client_type": 3
+    "project_info": {
+        "project_number": "1067709910938",
+        "firebase_url": "https://moncattle.firebaseio.com",
+        "project_id": "moncattle",
+        "storage_bucket": "moncattle.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:1067709910938:android:a867a56b5b319dc4993423",
+            "android_client_info": {
+                "package_name": "com.moncattle.ufrpe.fpa"
             }
-          ]
+        },
+        "oauth_client": [{
+            "client_id": "1067709910938-ne3m2imfvns6fhri1lak51lnkkpcqpb2.apps.googleusercontent.com",
+            "client_type": 3
+        }],
+        "api_key": [{
+            "current_key": "AIzaSyB4HoYQKrpQ-_sGeiUCHVGIzM4QbLE9eH0"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                    "client_id": "1067709910938-ne3m2imfvns6fhri1lak51lnkkpcqpb2.apps.googleusercontent.com",
+                    "client_type": 3
+                }]
+            }
         }
-      }
-    }
-  ],
-  "configuration_version": "1"
+    }],
+    "configuration_version": "1"
 }

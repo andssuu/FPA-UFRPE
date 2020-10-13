@@ -1,4 +1,4 @@
-package com.example.moncattle
+package com.moncattle.ufrpe.fpa
 
 import io.flutter.embedding.android.FlutterActivity
 
