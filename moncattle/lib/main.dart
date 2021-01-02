@@ -49,7 +49,6 @@ class _HomePageState extends State<HomePage> {
   onApp() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     var _status = prefs.getBool('login');
-    var dataCows = prefs.getString('cows');
     _status = true;
     prefs.setBool('login', _status);
   }

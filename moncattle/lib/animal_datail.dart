@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'models/cow.dart';
 
+// ignore: must_be_immutable
 class AnimalDetail extends StatefulWidget {
   Cow cow;
   AnimalDetail({this.cow});
